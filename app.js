@@ -42,7 +42,6 @@ app.use(function(req, res, next){
    res.locals.success = req.flash("success");
    next();
 });
-sdjakfjsakdfgjshdfgkjhsdgfkjhsadgfkjhsdgfkjhsgafkhjgskdfjg
 
 app.use("/", indexRoutes);
 app.use("/campgrounds", campgroundRoutes);
